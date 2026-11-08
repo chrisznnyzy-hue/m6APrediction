@@ -1,0 +1,17 @@
+Package: m6APrediction
+Title: Predict m6A Sites Using a Random Forest Model
+Version: 1.0.0
+Authors@R:
+    person(given = "Haotian", family = "Shen",
+           email = "Haotian.Shen24@student.xjtlu.edu.cn", role = c("aut", "cre"))
+Description: Predicts m6A status for individual or multiple candidate sites
+    using sequence and genomic features and a fitted random forest model.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends:
+    R (>= 3.5.0)
+Imports:
+    randomForest,
+    stats
